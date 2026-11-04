@@ -1,0 +1,82 @@
+{
+  "name": "opfs.ts",
+  "version": "0.1.2",
+  "description": "A TypeScript API for Origin Platform File Service (OPFS)",
+  "keywords": [
+    "anthonybudd",
+    "opfs",
+    "origin",
+    "storage",
+    "files"
+  ],
+  "homepage": "https://github.com/anthonybudd/OPFS.ts#readme",
+  "bugs": {
+    "url": "https://github.com/anthonybudd/OPFS.ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonybudd/OPFS.ts.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/@anthonybudd"
+  },
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "lint": "eslint src test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "npm run test:unit && npm run test:browser",
+    "test:unit": "vitest run",
+    "test:browser": "playwright test",
+    "typecheck": "tsc -p tsconfig.build.json --noEmit",
+    "prepare": "npm run clean && npm run build",
+    "docs": "typedoc",
+    "docs:check": "typedoc --emit none"
+  },
+  "license": "Apache-2.0",
+  "author": "Anthony Budd",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "ReadMe.md"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@playwright/test": "^1.64.1",
+    "@types/extend": "^3.0.4",
+    "@types/node": "^22.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "^3.3.3",
+    "tsup": "^8.5.1",
+    "typedoc": "^0.28.20",
+    "typedoc-plugin-markdown": "^4.14.1",
+    "typescript": "^5.6.3",
+    "vitest": "^5.1.0"
+  }
+}

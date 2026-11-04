@@ -1,0 +1,18 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": ["src/index.ts"],
+    "exclude": ["test"],
+    "plugin": ["typedoc-plugin-markdown"],
+    "out": "docs",
+    "name": "OPFS.ts",
+    "readme": "README.md",
+    "excludePrivate": true,
+    "excludeInternal": true,
+    "includeVersion": true,
+    "outputs": [
+        {
+            "name": "markdown",
+            "path": "./docs_markdown"
+        }
+    ]
+  }

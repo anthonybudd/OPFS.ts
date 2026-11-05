@@ -14,6 +14,17 @@ OPFS is a browser-based file system that allows web applications to store files 
 npm install @anthonybudd/opfs.ts
 ```
 
+<p align="center">
+  <a href="https://youtu.be/abU2lA6QzDI">
+  <img width="450" src="./.github/assets/youtube-embed.png" alt="YouTube Video">
+  </a>
+  </br>
+  <a href="https://youtu.be/abU2lA6QzDI">
+  Getting Started: youtu.be/abU2lA6QzDI
+  </a>
+</p>
+
+
 ### Getting Started
 
 ```ts
@@ -34,7 +45,8 @@ Full documentation is available in [docs](docs/globals.md)
 
 OPFS is widely supported across all major modern web browsers, including Chrome, Firefox, and Safari.
 
-![](./.github/assets/browser-support.png) [Source: developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/getDirectory#browser_compatibility)
+![](./.github/assets/browser-support.png)
+[Source: developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/getDirectory#browser_compatibility)
 
 ### Tests
 

@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OpfsFileStat
 
-Defined in: [src/types/v1.ts:342](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L342)
+Defined in: [src/types/v1.ts:342](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L342)
 
 Metadata for a file.
 
@@ -16,7 +16,7 @@ Metadata for a file.
 
 > **handle**: `FileSystemFileHandle`
 
-Defined in: [src/types/v1.ts:346](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L346)
+Defined in: [src/types/v1.ts:346](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L346)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/types/v1.ts:346](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **kind**: `"file"`
 
-Defined in: [src/types/v1.ts:343](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L343)
+Defined in: [src/types/v1.ts:343](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L343)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/types/v1.ts:343](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **lastModified**: `number`
 
-Defined in: [src/types/v1.ts:350](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L350)
+Defined in: [src/types/v1.ts:350](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L350)
 
 Last modified time, in milliseconds since the Unix epoch.
 
@@ -42,7 +42,7 @@ Last modified time, in milliseconds since the Unix epoch.
 
 > **name**: `string`
 
-Defined in: [src/types/v1.ts:344](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L344)
+Defined in: [src/types/v1.ts:344](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L344)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [src/types/v1.ts:344](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **path**: `string`
 
-Defined in: [src/types/v1.ts:345](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L345)
+Defined in: [src/types/v1.ts:345](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L345)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/types/v1.ts:345](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **size**: `number`
 
-Defined in: [src/types/v1.ts:348](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L348)
+Defined in: [src/types/v1.ts:348](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L348)
 
 Length in bytes.
 
@@ -68,6 +68,6 @@ Length in bytes.
 
 > **type**: `string`
 
-Defined in: [src/types/v1.ts:352](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L352)
+Defined in: [src/types/v1.ts:352](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L352)
 
 MIME type reported by `File.type`. Empty when the browser cannot infer one.

@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OpfsDirectoryStat
 
-Defined in: [src/types/v1.ts:356](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L356)
+Defined in: [src/types/v1.ts:356](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L356)
 
 Metadata for a directory. Directories do not expose a size or mtime.
 
@@ -16,7 +16,7 @@ Metadata for a directory. Directories do not expose a size or mtime.
 
 > **handle**: `FileSystemDirectoryHandle`
 
-Defined in: [src/types/v1.ts:360](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L360)
+Defined in: [src/types/v1.ts:360](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L360)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/types/v1.ts:360](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **kind**: `"directory"`
 
-Defined in: [src/types/v1.ts:357](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L357)
+Defined in: [src/types/v1.ts:357](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L357)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/types/v1.ts:357](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **name**: `string`
 
-Defined in: [src/types/v1.ts:358](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L358)
+Defined in: [src/types/v1.ts:358](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L358)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: [src/types/v1.ts:358](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **path**: `string`
 
-Defined in: [src/types/v1.ts:359](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L359)
+Defined in: [src/types/v1.ts:359](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L359)

@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -8,6 +8,6 @@
 
 > **OpfsEntryKind** = `FileSystemHandleKind`
 
-Defined in: [src/types/v1.ts:180](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L180)
+Defined in: [src/types/v1.ts:180](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L180)
 
 Whether an entry is a file or a directory.

@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **OpfsWatchListener** = (`records`) => `void`
 
-Defined in: [src/types/v1.ts:456](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L456)
+Defined in: [src/types/v1.ts:456](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L456)
 
 Called with a batch of [OpfsChange](OpfsChange.md) records.
 

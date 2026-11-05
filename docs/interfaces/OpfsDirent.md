@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OpfsDirent
 
-Defined in: [src/types/v1.ts:306](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L306)
+Defined in: [src/types/v1.ts:306](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L306)
 
 A directory listing entry. Call [OpfsDirent.isFile](#isfile) to narrow the handle.
 
@@ -21,7 +21,7 @@ A directory listing entry. Call [OpfsDirent.isFile](#isfile) to narrow the handl
 
 > `readonly` **kind**: `FileSystemHandleKind`
 
-Defined in: [src/types/v1.ts:310](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L310)
+Defined in: [src/types/v1.ts:310](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L310)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [src/types/v1.ts:310](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > `readonly` **name**: `string`
 
-Defined in: [src/types/v1.ts:307](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L307)
+Defined in: [src/types/v1.ts:307](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L307)
 
 ***
 
@@ -37,7 +37,7 @@ Defined in: [src/types/v1.ts:307](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > `readonly` **path**: `string`
 
-Defined in: [src/types/v1.ts:309](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L309)
+Defined in: [src/types/v1.ts:309](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L309)
 
 Path relative to the OPFS root.
 
@@ -47,7 +47,7 @@ Path relative to the OPFS root.
 
 > **isDirectory**(): `this is OpfsDirectoryDirent`
 
-Defined in: [src/types/v1.ts:312](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L312)
+Defined in: [src/types/v1.ts:312](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L312)
 
 #### Returns
 
@@ -59,7 +59,7 @@ Defined in: [src/types/v1.ts:312](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **isFile**(): `this is OpfsFileDirent`
 
-Defined in: [src/types/v1.ts:311](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L311)
+Defined in: [src/types/v1.ts:311](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L311)
 
 #### Returns
 

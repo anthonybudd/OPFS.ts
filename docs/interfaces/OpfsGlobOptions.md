@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OpfsGlobOptions
 
-Defined in: [src/types/v1.ts:413](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L413)
+Defined in: [src/types/v1.ts:413](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L413)
 
 Options for matching paths inside OPFS.
 
@@ -16,7 +16,7 @@ Options for matching paths inside OPFS.
 
 > `optional` **includeDirectories?**: `boolean`
 
-Defined in: [src/types/v1.ts:418](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L418)
+Defined in: [src/types/v1.ts:418](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L418)
 
 Include directories in the results.
 
@@ -32,4 +32,4 @@ true
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: [src/types/v1.ts:419](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L419)
+Defined in: [src/types/v1.ts:419](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L419)

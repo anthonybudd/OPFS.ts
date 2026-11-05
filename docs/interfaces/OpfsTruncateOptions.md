@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OpfsTruncateOptions
 
-Defined in: [src/types/v1.ts:390](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L390)
+Defined in: [src/types/v1.ts:390](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L390)
 
 Options for resizing a file.
 
@@ -16,7 +16,7 @@ Options for resizing a file.
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: [src/types/v1.ts:393](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L393)
+Defined in: [src/types/v1.ts:393](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L393)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/types/v1.ts:393](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > `optional` **size?**: `number`
 
-Defined in: [src/types/v1.ts:392](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L392)
+Defined in: [src/types/v1.ts:392](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L392)
 
 New size in bytes.
 

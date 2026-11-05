@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: OpfsError
 
-Defined in: [src/errors/errors.ts:31](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/errors/errors.ts#L31)
+Defined in: [src/errors/errors.ts:31](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L31)
 
 Base class for failures while reading or writing the origin private file system.
 
@@ -33,7 +33,7 @@ original DOMException so callers can still inspect the browser error.
 
 > **new OpfsError**(`message`, `options?`): `OpfsError`
 
-Defined in: [src/errors/errors.ts:34](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/errors/errors.ts#L34)
+Defined in: [src/errors/errors.ts:34](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L34)
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` `optional` **path?**: `string`
 
-Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/errors/errors.ts#L32)
+Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L32)
 
 ***
 

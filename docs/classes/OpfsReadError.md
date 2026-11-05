@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: OpfsReadError
 
-Defined in: [src/errors/errors.ts:54](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/errors/errors.ts#L54)
+Defined in: [src/errors/errors.ts:54](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L54)
 
 Reading a file or directory failed.
 
@@ -27,7 +27,7 @@ Use a more specific subclass when the browser error identifies the reason
 
 > **new OpfsReadError**(`message?`, `options?`): `OpfsReadError`
 
-Defined in: [src/errors/errors.ts:55](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/errors/errors.ts#L55)
+Defined in: [src/errors/errors.ts:55](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L55)
 
 #### Parameters
 
@@ -89,7 +89,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` `optional` **path?**: `string`
 
-Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/errors/errors.ts#L32)
+Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L32)
 
 #### Inherited from
 

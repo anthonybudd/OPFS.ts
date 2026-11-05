@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **default**: `object`
 
-Defined in: [src/index.ts:76](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/index.ts#L76)
+Defined in: [src/index.ts:78](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/index.ts#L78)
 
 ## Type Declaration
 
@@ -85,6 +85,53 @@ Use [touch](#touch) or [write](#write) to create a file inside the new directory
 ```ts
 const dir = await opfs.mkdir('personal/notes');
 await opfs.write('personal/notes/test.txt', 'Hello World');
+```
+
+### observe
+
+> **observe**: (`pathOrHandle`, `callback`, `options?`) => `Promise`\<`FileSystemObserver`\>
+
+Creates a new instance of a FileSystemObserver to watch for changes to a file or directory.
+
+#### Parameters
+
+##### pathOrHandle
+
+[`OpfsEntryTarget`](../type-aliases/OpfsEntryTarget.md)
+
+An OPFS-relative path to a file, a directory, 
+  FileSystemFileHandle or FileSystemDirectoryHandle.
+
+##### callback
+
+`OpfsObserverCallback`
+
+A function to call when a change is detected.
+
+##### options?
+
+`OpfsObserverOptions`
+
+Optional options for the observer.
+
+#### Returns
+
+`Promise`\<`FileSystemObserver`\>
+
+A promise that resolves to the new FileSystemObserver instance.
+
+#### Remarks
+
+This feature is not standardized. API and may change in the future.
+
+#### Example
+
+```ts
+const observer = await opfs.observe('personal/notes/test.txt', (records, observer) => {
+  for (const record of records) {
+    console.log('Change detected:', record);
+  }
+});
 ```
 
 ### readDir
@@ -251,6 +298,22 @@ const removed = await opfs.rmrf('personal/notes');
 // true
 ```
 
+### supported
+
+> **supported**: () => `Promise`\<`OpfsSupported`\>
+
+Returns whether the origin private file system is supported.
+
+#### Returns
+
+`Promise`\<`OpfsSupported`\>
+
+#### Example
+
+```ts
+await opfs.supported();
+```
+
 ### touch
 
 > **touch**: (`filepath`) => `Promise`\<`FileSystemFileHandle`\>
@@ -321,8 +384,8 @@ directories are left in place.
 #### Example
 
 ```ts
-await opfs.touch('personal/notes/test.txt');
-const removed = await opfs.unlink('personal/notes/test.txt');
+await fs.touch('personal/notes/test.txt');
+const removed = await fs.unlink('personal/notes/test.txt');
 // true
 ```
 
@@ -362,7 +425,7 @@ for await (const [path, handle] of opfs.walkDir(root)) {
 
 ### write
 
-> **write**: (`pathOrHandle`, `data`) => `Promise`\<`void`\>
+> **write**: (`pathOrHandle`, `data`, `options?`) => `Promise`\<`void`\>
 
 Replaces the contents of a file in the origin private file system (OPFS).
 
@@ -382,6 +445,10 @@ An OPFS-relative path to the file, or a
 
 Bytes, text, a blob, or a positioned [OpfsWriteCommand](../type-aliases/OpfsWriteCommand.md).
   A string is encoded as UTF-8.
+
+##### options?
+
+`OpfsCreateWritableOptions`
 
 #### Returns
 

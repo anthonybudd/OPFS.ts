@@ -1,4 +1,4 @@
-**OPFS.ts v0.1.2**
+**OPFS.ts v0.1.11**
 
 ***
 
@@ -18,27 +18,48 @@ OPFS is a browser-based file system that allows web applications to store files 
 npm install @anthonybudd/opfs.ts
 ```
 
+<p align="center">
+  <a href="https://youtu.be/abU2lA6QzDI">
+  <img width="450" src="_media/youtube-embed.png" alt="YouTube Video">
+  </a>
+  </br>
+  <a href="https://youtu.be/abU2lA6QzDI">
+  Getting Started: youtu.be/abU2lA6QzDI
+  </a>
+</p>
+
 ### Getting Started
 
 ```ts
 import opfs from '@anthonybudd/opfs.ts';
 
-const dir = await opfs.mkdir('personal/notes');
-await opfs.write('personal/notes/test.txt', 'Hello World');
-await opfs.exists('personal/notes/test.txt');
-await opfs.unlink('personal/notes/test.txt');
-await opfs.readDir('personal/notes'); 
+await opfs.mkdir('/personal/notes');
+await opfs.write('/personal/notes/test.txt', 'Hello World');
+await opfs.exists('/personal/notes/test.txt');
+await opfs.unlink('/personal/notes/test.txt');
+await opfs.readDir('/personal/notes');
+
+for await (const [path, handle] of opfs.walkDir('/personal/notes')) {
+  console.log(path, handle.kind);
+}
+
+await opfs.observe('/personal/notes/test.txt', (records, observer) => {
+  for (const record of records) {
+    console.log('Change detected:', record);
+  }
+});
 ```
 
 ### Documentation
 
-Full documentation is available in [docs](docs/globals.md)
+Full documentation is available in [docs](_media/globals.md)
 
 ### Browser Support
 
 OPFS is widely supported across all major modern web browsers, including Chrome, Firefox, and Safari.
 
-![](_media/browser-support.png) [Source: developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/getDirectory#browser_compatibility)
+![](_media/browser-support.png)
+[Source: developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/getDirectory#browser_compatibility)
 
 ### Tests
 

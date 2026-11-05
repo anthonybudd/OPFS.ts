@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OpfsEntryChange
 
-Defined in: [src/types/v1.ts:444](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L444)
+Defined in: [src/types/v1.ts:444](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L444)
 
 A change that is not a move.
 
@@ -20,7 +20,7 @@ A change that is not a move.
 
 > **changedHandle**: `FileSystemHandle`
 
-Defined in: [src/types/v1.ts:438](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L438)
+Defined in: [src/types/v1.ts:438](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L438)
 
 #### Inherited from
 
@@ -32,7 +32,7 @@ Defined in: [src/types/v1.ts:438](https://github.com/anthonybudd/OPFS.ts/blob/76
 
 > **path**: `string`
 
-Defined in: [src/types/v1.ts:435](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L435)
+Defined in: [src/types/v1.ts:435](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L435)
 
 Path of the changed entry relative to the OPFS root.
 
@@ -46,7 +46,7 @@ Path of the changed entry relative to the OPFS root.
 
 > **relativePathComponents**: readonly `string`[]
 
-Defined in: [src/types/v1.ts:440](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L440)
+Defined in: [src/types/v1.ts:440](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L440)
 
 Path components from [OpfsChangeBase.root](#root) to the changed entry.
 
@@ -60,7 +60,7 @@ Path components from [OpfsChangeBase.root](#root) to the changed entry.
 
 > **root**: `FileSystemHandle`
 
-Defined in: [src/types/v1.ts:437](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L437)
+Defined in: [src/types/v1.ts:437](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L437)
 
 Handle that was passed to `observe`.
 
@@ -74,4 +74,4 @@ Handle that was passed to `observe`.
 
 > **type**: `"appeared"` \| `"disappeared"` \| `"modified"` \| `"unknown"` \| `"errored"`
 
-Defined in: [src/types/v1.ts:445](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L445)
+Defined in: [src/types/v1.ts:445](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L445)

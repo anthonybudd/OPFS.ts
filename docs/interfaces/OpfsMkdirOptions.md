@@ -1,4 +1,4 @@
-[**OPFS.ts v0.1.2**](../README.md)
+[**OPFS.ts v0.1.11**](../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: OpfsMkdirOptions
 
-Defined in: [src/types/v1.ts:284](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L284)
+Defined in: [src/types/v1.ts:284](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L284)
 
 Options for creating directories.
 
@@ -16,7 +16,7 @@ Options for creating directories.
 
 > `optional` **recursive?**: `boolean`
 
-Defined in: [src/types/v1.ts:289](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L289)
+Defined in: [src/types/v1.ts:289](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L289)
 
 Create missing parent directories.
 
@@ -32,4 +32,4 @@ true
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: [src/types/v1.ts:290](https://github.com/anthonybudd/OPFS.ts/blob/76e189896b0beb55a8735aadc15e2a7d101d7aa4/src/types/v1.ts#L290)
+Defined in: [src/types/v1.ts:290](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L290)

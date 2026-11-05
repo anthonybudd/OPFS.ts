@@ -1,8 +1,8 @@
-[**OPFS.ts v0.1.2**](README.md)
+[**OPFS.ts v0.1.11**](README.md)
 
 ***
 
-# OPFS.ts v0.1.2
+# OPFS.ts v0.1.11
 
 A TypeScript API for the origin private file system.
 

@@ -67,7 +67,6 @@ export const directories = (path: string): string[] => (path
   .map((dir) => dir.trim())
   .filter((dir) => dir !== ''));
 
-
 /**
  * Returns the directory that contains `handle`.
  *
@@ -93,7 +92,6 @@ export async function getParentDirectory(
   const directory = await changeDir(path.join('/'));
   return directory;
 }
-
 
 /**
  * Trims a path and collapses it to a relative OPFS path.

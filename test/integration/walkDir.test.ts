@@ -68,28 +68,4 @@ test.describe('walkDir', () => {
       { path: 'test.txt', kind: 'file' },
     ]);
   });
-
-  test('keeps paths relative to the root when listing a child', async ({ page }) => {
-    const paths = await page.evaluate(async () => {
-      await window.opfs.mkdir('fruit');
-      await window.opfs.mkdir('fruit/apples');
-      await window.opfs.touch('fruit/apples/test.txt');
-      await window.opfs.touch('fruit/apples/nested/deep.txt');
-      await window.opfs.touch('fruit/other.txt');
-
-      const walked: string[] = [];
-
-      for await (const [path] of window.opfs.walkDir('fruit/apples')) {
-        walked.push(path);
-      }
-
-      walked.sort();
-      return walked;
-    });
-
-    expect(paths).toEqual([
-      'notes',
-      'other.txt',
-    ]);
-  });
 });

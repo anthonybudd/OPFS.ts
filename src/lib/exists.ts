@@ -1,5 +1,5 @@
-import type { OpfsEntryTarget } from '../types/v1.ts';
 import { basename, changeDir, dirname, normalize } from '../util/helpers.ts';
+import type { OpfsEntryTarget } from '../types/v1.ts';
 
 /**
  * Tests whether a file or directory exists in the origin private file system (OPFS).

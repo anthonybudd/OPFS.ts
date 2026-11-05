@@ -20,6 +20,8 @@ Object.assign(window, {
     walkDir: opfs.walkDir,
     rm: opfs.rm,
     rmrf: opfs.rmrf,
+    supported: opfs.supported,
+    observe: opfs.observe,
   },
   helpers: {
     changeDir,

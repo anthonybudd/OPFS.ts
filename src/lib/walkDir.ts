@@ -1,5 +1,5 @@
-import { OpfsDirectoryTarget } from "../types/v1.ts";
-import { resolveDirectoryFromPath } from "../util/helpers.ts";
+import { resolveDirectoryFromPath } from '../util/helpers.ts';
+import type { OpfsDirectoryTarget } from '../types/v1.ts';
 
 /**
  * Yields each file in a directory. Subdirectories are not entered.

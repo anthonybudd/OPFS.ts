@@ -1,4 +1,4 @@
-import type { OpfsRemoveOptions, OpfsWriteData } from '../../src/types/v1';
+import type { OpfsRemoveOptions, OpfsWriteData, OpfsSupported, OpfsObserverCallback, OpfsObserverOptions } from '../../src/types/v1';
 
 export interface OPFS {
   exists(target: string | FileSystemHandle): Promise<boolean>;
@@ -14,6 +14,8 @@ export interface OPFS {
     options?: OpfsRemoveOptions,
   ): Promise<boolean>;
   rmrf(target: string | FileSystemDirectoryHandle): Promise<boolean>;
+  supported(): Promise<OpfsSupported>;
+  observe(target: string | FileSystemHandle, callback: OpfsObserverCallback, options?: OpfsObserverOptions): Promise<FileSystemObserver>;
 }
 
 export interface Helpers {

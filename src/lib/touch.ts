@@ -1,6 +1,6 @@
-import type { OpfsPath } from '../types/v1.ts';
 import { basename, directories, dirname, normalize } from '../util/helpers.ts';
-import { mkdir } from './mkdir.ts';
+import type { OpfsPath } from '../types/v1.ts';
+import { mkdir } from './mkdir.js';
 
 /**
  * Creates an empty file in the origin private file system (OPFS), including

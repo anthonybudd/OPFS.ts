@@ -1,5 +1,5 @@
-import type { OpfsPath } from '../types/v1.ts';
 import { directories, normalize } from '../util/helpers.ts';
+import type { OpfsPath } from '../types/v1.ts';
 
 /**
  * Creates every directory in an origin private file system (OPFS) path and

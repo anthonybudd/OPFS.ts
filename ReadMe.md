@@ -24,17 +24,26 @@ npm install @anthonybudd/opfs.ts
   </a>
 </p>
 
-
 ### Getting Started
 
 ```ts
 import opfs from '@anthonybudd/opfs.ts';
 
-const dir = await opfs.mkdir('personal/notes');
-await opfs.write('personal/notes/test.txt', 'Hello World');
-await opfs.exists('personal/notes/test.txt');
-await opfs.unlink('personal/notes/test.txt');
-await opfs.readDir('personal/notes'); 
+await opfs.mkdir('/personal/notes');
+await opfs.write('/personal/notes/test.txt', 'Hello World');
+await opfs.exists('/personal/notes/test.txt');
+await opfs.unlink('/personal/notes/test.txt');
+await opfs.readDir('/personal/notes');
+
+for await (const [path, handle] of opfs.walkDir('/personal/notes')) {
+  console.log(path, handle.kind);
+}
+
+await opfs.observe('/personal/notes/test.txt', (records, observer) => {
+  for (const record of records) {
+    console.log('Change detected:', record);
+  }
+});
 ```
 
 ### Documentation

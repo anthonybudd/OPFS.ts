@@ -486,3 +486,29 @@ export interface OpfsRootOptions {
   /** Named storage bucket to open instead of the default bucket. */
   bucket?: string;
 }
+
+/** Whether the origin private file system is supported. */
+export interface OpfsSupported {
+  opfs: boolean;
+  observer: boolean;
+}
+
+/** FileSystemObserver callback */
+export type OpfsObserverCallback = (
+  records: FileSystemChangeRecord[],
+  observer: FileSystemObserver,
+) => void;
+
+/** Options for watching a file or directory. */
+export interface OpfsObserverOptions {
+  recursive?: boolean;
+}
+
+/** Options for creating a writable stream. */
+export interface OpfsCreateWritableOptions extends FileSystemCreateWritableOptions {
+  /**
+   * `exclusive` - Only one FileSystemWritableFileStream writer can be opened. Attempting to open subsequent writers before the first writer is closed results in a NoModificationAllowedError exception being thrown.
+   * `siloed` - Multiple FileSystemWritableFileStream writers can be opened at the same time, each with its own swap file, for example when using the same app in multiple tabs. The last writer opened has its data written, as the data gets flushed when each writer is closed.
+   */
+  mode?: 'exclusive' | 'siloed';
+}

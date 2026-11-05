@@ -1,4 +1,4 @@
-import type { OpfsFileTarget, OpfsWriteData } from '../types/v1.ts';
+import type { OpfsFileTarget, OpfsWriteData, OpfsCreateWritableOptions } from '../types/v1.ts';
 import { resolveFileFromPath } from '../util/helpers.ts';
 
 /**
@@ -28,13 +28,14 @@ import { resolveFileFromPath } from '../util/helpers.ts';
 export async function write(
   pathOrHandle: OpfsFileTarget,
   data: OpfsWriteData,
+  options?: OpfsCreateWritableOptions,
 ): Promise<void> {
   const handle =
     typeof pathOrHandle === 'string'
       ? await resolveFileFromPath(pathOrHandle)
       : pathOrHandle;
 
-  const stream = await handle.createWritable();
+  const stream = await handle.createWritable(options);
   await stream.write(data);
   await stream.close();
 }

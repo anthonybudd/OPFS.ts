@@ -1,5 +1,5 @@
-import type { OpfsFileTarget } from '../types/v1.ts';
 import { getParentDirectory, resolveFileFromPath } from '../util/helpers.ts';
+import type { OpfsFileTarget } from '../types/v1.ts';
 
 /**
  * Removes a file from the origin private file system (OPFS).
@@ -18,8 +18,8 @@ import { getParentDirectory, resolveFileFromPath } from '../util/helpers.ts';
  *
  * @example
  * ```ts
- * await opfs.touch('personal/notes/test.txt');
- * const removed = await opfs.unlink('personal/notes/test.txt');
+ * await fs.touch('personal/notes/test.txt');
+ * const removed = await fs.unlink('personal/notes/test.txt');
  * // true
  * ```
  */

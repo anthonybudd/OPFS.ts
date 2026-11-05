@@ -1,11 +1,9 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import {
   basename,
-  changeDir,
   directories,
   dirname,
   normalize,
-  resolveFileFromPath,
 } from '../../src/util/helpers.ts';
 
 afterEach(() => {

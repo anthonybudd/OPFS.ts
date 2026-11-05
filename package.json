@@ -1,6 +1,6 @@
 {
   "name": "opfs.ts",
-  "version": "0.1.3",
+  "version": "0.1.11",
   "description": "A TypeScript API for Origin Platform File Service (OPFS)",
   "keywords": [
     "anthonybudd",

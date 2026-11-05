@@ -72,6 +72,8 @@ import { unlink } from './lib/unlink.ts';
 import { write } from './lib/write.ts';
 import { walkDir } from './lib/walkDir.ts';
 import { rm, rmrf } from './lib/rm.ts';
+import { supported } from './lib/supported.ts';
+import { observe } from './lib/observe.ts';
 
 export default {
     exists,
@@ -84,4 +86,6 @@ export default {
     walkDir,
     rm,
     rmrf,
+    supported,
+    observe,
 };

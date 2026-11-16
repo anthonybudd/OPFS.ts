@@ -6,7 +6,7 @@
 
 # Class: OpfsNotReadableError
 
-Defined in: [src/errors/errors.ts:91](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L91)
+Defined in: [src/errors/errors.ts:91](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L91)
 
 A file exists but its bytes could not be read.
 
@@ -23,7 +23,7 @@ disappears or becomes unreadable after the handle was obtained.
 
 > **new OpfsNotReadableError**(`message?`, `options?`): `OpfsNotReadableError`
 
-Defined in: [src/errors/errors.ts:92](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L92)
+Defined in: [src/errors/errors.ts:92](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L92)
 
 #### Parameters
 
@@ -85,7 +85,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` `optional` **path?**: `string`
 
-Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L32)
+Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L32)
 
 #### Inherited from
 

@@ -6,7 +6,7 @@
 
 # Interface: OpfsWriteOptions
 
-Defined in: [src/types/v1.ts:241](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L241)
+Defined in: [src/types/v1.ts:241](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L241)
 
 Options for creating or replacing a file.
 
@@ -16,7 +16,7 @@ Options for creating or replacing a file.
 
 > `optional` **append?**: `boolean`
 
-Defined in: [src/types/v1.ts:246](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L246)
+Defined in: [src/types/v1.ts:246](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L246)
 
 Append to existing bytes.
 When omitted, the write replaces the file.
@@ -27,7 +27,7 @@ When omitted, the write replaces the file.
 
 > `optional` **create?**: `boolean`
 
-Defined in: [src/types/v1.ts:251](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L251)
+Defined in: [src/types/v1.ts:251](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L251)
 
 Create the file and any missing parent directories.
 
@@ -43,7 +43,7 @@ true
 
 > `optional` **encoding?**: [`OpfsEncoding`](../type-aliases/OpfsEncoding.md)
 
-Defined in: [src/types/v1.ts:261](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L261)
+Defined in: [src/types/v1.ts:261](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L261)
 
 Encoding used when the written data is a string.
 
@@ -57,7 +57,7 @@ Encoding used when the written data is a string.
 
 > `optional` **exclusive?**: `boolean`
 
-Defined in: [src/types/v1.ts:253](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L253)
+Defined in: [src/types/v1.ts:253](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L253)
 
 Fail when the file already exists.
 
@@ -67,7 +67,7 @@ Fail when the file already exists.
 
 > `optional` **keepExistingData?**: `boolean`
 
-Defined in: [src/types/v1.ts:259](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L259)
+Defined in: [src/types/v1.ts:259](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L259)
 
 Keep the current bytes when opening the writable stream.
 Corresponds to `FileSystemCreateWritableOptions.keepExistingData`.
@@ -79,4 +79,4 @@ Implied when [OpfsWriteOptions.append](#append) is set.
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: [src/types/v1.ts:262](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L262)
+Defined in: [src/types/v1.ts:262](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L262)

@@ -15,7 +15,7 @@ OPFS is a browser-based file system that allows web applications to store files 
 - ☁️ Installable with NPM
 
 ```sh
-npm install @anthonybudd/opfs.ts
+npm install @anthonycbudd/opfs.ts
 ```
 
 <p align="center">
@@ -31,7 +31,7 @@ npm install @anthonybudd/opfs.ts
 ### Getting Started
 
 ```ts
-import opfs from '@anthonybudd/opfs.ts';
+import opfs from '@anthonycbudd/opfs.ts';
 
 await opfs.mkdir('/personal/notes');
 await opfs.write('/personal/notes/test.txt', 'Hello World');

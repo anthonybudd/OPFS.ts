@@ -6,7 +6,7 @@
 
 # Interface: OpfsRemoveOptions
 
-Defined in: [src/types/v1.ts:381](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L381)
+Defined in: [src/types/v1.ts:381](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L381)
 
 Options for removing a file or directory.
 
@@ -16,7 +16,7 @@ Options for removing a file or directory.
 
 > `optional` **force?**: `boolean`
 
-Defined in: [src/types/v1.ts:385](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L385)
+Defined in: [src/types/v1.ts:385](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L385)
 
 Succeed when the entry is already gone.
 
@@ -26,7 +26,7 @@ Succeed when the entry is already gone.
 
 > `optional` **recursive?**: `boolean`
 
-Defined in: [src/types/v1.ts:383](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L383)
+Defined in: [src/types/v1.ts:383](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L383)
 
 Remove a directory and everything under it.
 
@@ -36,4 +36,4 @@ Remove a directory and everything under it.
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: [src/types/v1.ts:386](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L386)
+Defined in: [src/types/v1.ts:386](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L386)

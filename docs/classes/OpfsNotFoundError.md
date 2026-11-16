@@ -6,7 +6,7 @@
 
 # Class: OpfsNotFoundError
 
-Defined in: [src/errors/errors.ts:79](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L79)
+Defined in: [src/errors/errors.ts:79](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L79)
 
 The file or directory does not exist.
 
@@ -24,7 +24,7 @@ entry is missing.
 
 > **new OpfsNotFoundError**(`message?`, `options?`): `OpfsNotFoundError`
 
-Defined in: [src/errors/errors.ts:80](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L80)
+Defined in: [src/errors/errors.ts:80](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L80)
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` `optional` **path?**: `string`
 
-Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L32)
+Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L32)
 
 #### Inherited from
 

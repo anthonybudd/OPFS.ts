@@ -8,7 +8,7 @@
 
 > **OpfsEncoding** = `"utf-8"` \| `"utf8"`
 
-Defined in: [src/types/v1.ts:186](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L186)
+Defined in: [src/types/v1.ts:186](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L186)
 
 Text encoding for string reads and writes.
 UTF-8 is the encoding OPFS uses when a string is passed to a writable stream.

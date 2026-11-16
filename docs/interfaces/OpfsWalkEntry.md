@@ -6,7 +6,7 @@
 
 # Interface: OpfsWalkEntry
 
-Defined in: [src/types/v1.ts:367](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L367)
+Defined in: [src/types/v1.ts:367](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L367)
 
 An entry visited while walking a directory tree.
 
@@ -16,7 +16,7 @@ An entry visited while walking a directory tree.
 
 > **handle**: `FileSystemHandle`
 
-Defined in: [src/types/v1.ts:370](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L370)
+Defined in: [src/types/v1.ts:370](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L370)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/types/v1.ts:370](https://github.com/anthonybudd/OPFS.ts/blob/67
 
 > **kind**: `FileSystemHandleKind`
 
-Defined in: [src/types/v1.ts:369](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L369)
+Defined in: [src/types/v1.ts:369](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L369)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [src/types/v1.ts:369](https://github.com/anthonybudd/OPFS.ts/blob/67
 
 > **path**: `string`
 
-Defined in: [src/types/v1.ts:368](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L368)
+Defined in: [src/types/v1.ts:368](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L368)

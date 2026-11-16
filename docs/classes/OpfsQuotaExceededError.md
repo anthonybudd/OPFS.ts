@@ -6,7 +6,7 @@
 
 # Class: OpfsQuotaExceededError
 
-Defined in: [src/errors/errors.ts:128](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L128)
+Defined in: [src/errors/errors.ts:128](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L128)
 
 The write would exceed the origin storage quota.
 
@@ -22,7 +22,7 @@ Corresponds to `QuotaExceededError` from `FileSystemWritableFileStream.write()`.
 
 > **new OpfsQuotaExceededError**(`message?`, `options?`): `OpfsQuotaExceededError`
 
-Defined in: [src/errors/errors.ts:129](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L129)
+Defined in: [src/errors/errors.ts:129](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L129)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` `optional` **path?**: `string`
 
-Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L32)
+Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L32)
 
 #### Inherited from
 

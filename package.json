@@ -1,5 +1,5 @@
 {
-  "name": "opfs.ts",
+  "name": "@anthonycbudd/opfs.ts",
   "version": "0.1.11",
   "description": "A TypeScript API for Origin Platform File Service (OPFS)",
   "keywords": [
@@ -19,7 +19,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/@anthonybudd"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": "tsup",

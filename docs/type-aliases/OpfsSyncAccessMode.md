@@ -8,6 +8,6 @@
 
 > **OpfsSyncAccessMode** = `"read-only"` \| `"readwrite"` \| `"readwrite-unsafe"`
 
-Defined in: [src/types/v1.ts:11](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L11)
+Defined in: [src/types/v1.ts:11](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L11)
 
 Lock mode for FileSystemFileHandle.createSyncAccessHandle.

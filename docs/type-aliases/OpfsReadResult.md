@@ -8,7 +8,7 @@
 
 > **OpfsReadResult**\<`T`\> = `T` *extends* `"text"` ? `string` : `T` *extends* `"uint8array"` ? `Uint8Array`\<`ArrayBuffer`\> : `T` *extends* `"blob"` ? `Blob` : `T` *extends* `"stream"` ? `ReadableStream`\<`Uint8Array`\<`ArrayBuffer`\>\> : `T` *extends* `"file"` ? `File` : `ArrayBuffer`
 
-Defined in: [src/types/v1.ts:196](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L196)
+Defined in: [src/types/v1.ts:196](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L196)
 
 Bytes returned for a given [OpfsReadAs](OpfsReadAs.md) value.
 

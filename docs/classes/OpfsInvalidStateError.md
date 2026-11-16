@@ -6,7 +6,7 @@
 
 # Class: OpfsInvalidStateError
 
-Defined in: [src/errors/errors.ts:151](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L151)
+Defined in: [src/errors/errors.ts:151](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L151)
 
 The handle or writable stream is closed or locked.
 
@@ -23,7 +23,7 @@ calling `createWritable()` while a sync access handle already locks the file.
 
 > **new OpfsInvalidStateError**(`message?`, `options?`): `OpfsInvalidStateError`
 
-Defined in: [src/errors/errors.ts:152](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L152)
+Defined in: [src/errors/errors.ts:152](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L152)
 
 #### Parameters
 
@@ -85,7 +85,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` `optional` **path?**: `string`
 
-Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/errors/errors.ts#L32)
+Defined in: [src/errors/errors.ts:32](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/errors/errors.ts#L32)
 
 #### Inherited from
 

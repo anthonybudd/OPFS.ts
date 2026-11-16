@@ -6,7 +6,7 @@
 
 # Interface: OpfsTouchOptions
 
-Defined in: [src/types/v1.ts:294](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L294)
+Defined in: [src/types/v1.ts:294](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L294)
 
 Options for creating an empty file without changing one that already exists.
 
@@ -16,7 +16,7 @@ Options for creating an empty file without changing one that already exists.
 
 > `optional` **exclusive?**: `boolean`
 
-Defined in: [src/types/v1.ts:301](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L301)
+Defined in: [src/types/v1.ts:301](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L301)
 
 Fail when the file already exists.
 
@@ -26,7 +26,7 @@ Fail when the file already exists.
 
 > `optional` **recursive?**: `boolean`
 
-Defined in: [src/types/v1.ts:299](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L299)
+Defined in: [src/types/v1.ts:299](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L299)
 
 Create missing parent directories.
 
@@ -42,4 +42,4 @@ true
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: [src/types/v1.ts:302](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L302)
+Defined in: [src/types/v1.ts:302](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L302)

@@ -6,7 +6,7 @@
 
 # Interface: OpfsReadDirOptions
 
-Defined in: [src/types/v1.ts:328](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L328)
+Defined in: [src/types/v1.ts:328](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L328)
 
 Options for listing a directory.
 
@@ -16,7 +16,7 @@ Options for listing a directory.
 
 > `optional` **recursive?**: `boolean`
 
-Defined in: [src/types/v1.ts:330](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L330)
+Defined in: [src/types/v1.ts:330](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L330)
 
 Walk nested directories.
 
@@ -26,7 +26,7 @@ Walk nested directories.
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: [src/types/v1.ts:333](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L333)
+Defined in: [src/types/v1.ts:333](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L333)
 
 ***
 
@@ -34,6 +34,6 @@ Defined in: [src/types/v1.ts:333](https://github.com/anthonybudd/OPFS.ts/blob/67
 
 > `optional` **withFileTypes?**: `boolean`
 
-Defined in: [src/types/v1.ts:332](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L332)
+Defined in: [src/types/v1.ts:332](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L332)
 
 Return [OpfsDirent](OpfsDirent.md) values instead of paths.

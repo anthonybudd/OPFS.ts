@@ -6,7 +6,7 @@
 
 # Interface: OpfsWalkOptions
 
-Defined in: [src/types/v1.ts:374](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L374)
+Defined in: [src/types/v1.ts:374](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L374)
 
 Options for walking a directory tree.
 
@@ -16,7 +16,7 @@ Options for walking a directory tree.
 
 > `optional` **includeSelf?**: `boolean`
 
-Defined in: [src/types/v1.ts:376](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L376)
+Defined in: [src/types/v1.ts:376](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L376)
 
 Include the starting directory in the results.
 
@@ -26,4 +26,4 @@ Include the starting directory in the results.
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: [src/types/v1.ts:377](https://github.com/anthonybudd/OPFS.ts/blob/677bf59c4aa7616578f2e3ad95962f2cab8f7819/src/types/v1.ts#L377)
+Defined in: [src/types/v1.ts:377](https://github.com/anthonybudd/OPFS.ts/blob/4ff9e127efb908762c17192626f145128ee7d0f2/src/types/v1.ts#L377)
